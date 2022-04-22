@@ -15,11 +15,18 @@
       <div class="content">
         <img src="/assets/SVGResized/xx.svg" alt="XX logo">
       </div>
-      <nav>
-        <input type="text" placeholder="search our site">
-        <button> <img src="/assets/svg/search icon.svg" alt="Search Icon"> </button>
-      </nav>
+    
     </header>
+
+    <section class="search-bar container">
+      <div class="content">
+        <nav>
+          <input type="text" placeholder="search our site">
+          <button> <img src="/assets/svg/search icon.svg" alt="Search Icon"> </button>
+        </nav>
+      </div>
+
+    </section>
 
 <!--Hero1-->
 
@@ -47,20 +54,19 @@
 
 <!--Depressed Section-->
 <section>
-<Article>
-  <h3>Depressed with Reality?</h3>
-    <button>Start Here</button>
-    <img src="/assets/ImagesResized/Depressed with Reality.jpg" alt="Depressed with Reality">
-</Article>
+  <Article class="article-grid">
+    <h3>Depressed with Reality?</h3>
+      <button>Start Here</button>
+      <img src="/assets/ImagesResized/Depressed with Reality.jpg" alt="Depressed with Reality">
+  </Article>
+
+  <!--Reasons Section-->
+  <Article>
+    <h3>Reasons to Go On?</h3>
+      <button>Click Here</button>
+      <img src="/assets/ImagesResized/Reasons to Go On.jpg" alt="the creature">
+  </Article>
 </section>
-
-<!--Reasons Section-->
-<Article>
-  <h3>Reasons to Go On?</h3>
-    <button>Click Here</button>
-    <img src="/assets/ImagesResized/Reasons to Go On.jpg" alt="the creature">
-</Article>
-
 <!--Hero2-->
 
 <section class="hero2 container">
@@ -81,44 +87,48 @@
   <!--Are we alone section-->
     <article>
       <img src="/assets/ImagesResized/Are We Alone.jpg" alt="stickfigures">
-      <h3>Are We Alone?</h3>
-        <p>Are we alone in this reality? Does it matter?</p>
-        <a href="#">read more</a>
+      <div class="container">
+        <div class="content">
+          <h3>Are We Alone?</h3>
+            <p>Are we alone in this reality? Does it matter?</p>
+            <a href="#">read more</a>
+          </div>
+        </div>
     </article>
-</section>
+
 
 <!--Myth Section-->
-<section>
+
   <article>
     <img src="/assets/ImagesResized/Myth of Sisyphus.jpg" alt="Myth of Sisypus">
     <h3>The Myth of Sisyphus</h3>
      <p>A tantalizing story of a man with a neverending task.</p>
       <a href="#">read more</a>
   </article>
-</section>
 
+  
 <!--E vs N Section-->
-<section>
+
   <article>
   <img src="/assets/ImagesResized/E vs N.jpg" alt="screaming man">
    <h3>Existentialism vs Nihalism</h3>
      <p>Learn the differences between these two subcategories of depression :)</p>
      <a href="#">read more</a>
   </article>
-</section>
+
 
 <!--Nothingness Section-->
-<section>
+
   <article>
   <img src="/assets/ImagesResized/Art of Nothingness.jpg" alt="nothing">
    <h3>The Art of Nothingness</h3>
      <p>How to utilize Nihalism to your advantage in the corporate world.</p>
      <a href="#">read more</a>
   </article>
-</section>
+
 
 <!-- Meaning of Life Section-->
-<section>
+
   <article>
     <img src="/assets/ImagesResized/Meaning of Life.jpg" alt="eye man">
     <h3>The Meaning of Life</h3>
@@ -166,7 +176,9 @@
       <section>
         <article>
          <h4>Newsletter Sign Up</h4>
+         <form>
            <input>Email Address</input>
+          </form>
            <button>Sign Up</button>
        </article>
       </section>
@@ -183,4 +195,5 @@
 
     <script src="js/scripts-min.js"></script>
   </body>
+  
 </html>
