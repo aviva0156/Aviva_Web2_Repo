@@ -11,7 +11,14 @@
             gap:20px;
 
             @include md{
-                grid-template-columns: 50% 50%;
+                grid-template-columns: 25% 25% 25% 25%;
+            }
+
+            @include lg{
+                grid-template-columns: repeat(12,1fr);
+                grid-template-areas:none
+                "Alone Content Alone Content Myth Content Myth Content EvN Content EvN Content"
+                "Art Content Art Content Meaning Content Meaning Content"
             }
 
 
