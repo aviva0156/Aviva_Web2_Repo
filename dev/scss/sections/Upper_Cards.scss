@@ -2,10 +2,9 @@
     Base
 ============= */
 
-.container{
+.cards-container{
    
-    .content{
-        ul{
+    .depressed-content{
             display:grid;
             gap:20px;
 
@@ -13,16 +12,6 @@
                 grid-template-columns: 50% 50%;
             }
 
-            @include lg{
-                grid-template-columns: 50% 50%;
-                grid-template-areas:none
-                ""
-                ""
-            }
-
-
         
-        }
-
     }
 }

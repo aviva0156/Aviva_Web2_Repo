@@ -453,18 +453,12 @@ header .content {
 /* =============
     Base
 ============= */
-.container .content ul {
+.cards-container .depressed-content {
   display: grid;
   gap: 20px;
 }
 @media (min-width: 768px) {
-  .container .content ul {
+  .cards-container .depressed-content {
     grid-template-columns: 50% 50%;
-  }
-}
-@media (min-width: 992px) {
-  .container .content ul {
-    grid-template-columns: 50% 50%;
-    grid-template-areas: none "" "";
   }
 }
