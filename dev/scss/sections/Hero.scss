@@ -1,8 +1,16 @@
-test{
-    img{
-        width:100%;
-    }
-    img{
-        width: 50% 50%;
-    }
+
+
+
+.hero{
+
+    .hero-content{
+        ul{
+            display:grid;
+            gap:20px;
+
+            @include md{
+                grid-template-columns: 50% 50%;
+              }
+            }
+        }
 }

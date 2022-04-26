@@ -18,11 +18,3 @@ ul li{
     list-style: none;
     padding:none;
 }
-
-body{
-    background-color: $black;
-
-    @include md{
-        background-color: $white;
-    }
-}

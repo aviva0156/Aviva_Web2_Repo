@@ -366,15 +366,6 @@ ul li {
   padding: none;
 }
 
-body {
-  background-color: #000;
-}
-@media (min-width: 768px) {
-  body {
-    background-color: #fff;
-  }
-}
-
 /* =============
     Typography
 ============= */
@@ -418,11 +409,14 @@ header .content {
   grid-template-columns: 50% 50%;
 }
 
-test img {
-  width: 100%;
+.hero .hero-content ul {
+  display: grid;
+  gap: 20px;
 }
-test img {
-  width: 50% 50%;
+@media (min-width: 768px) {
+  .hero .hero-content ul {
+    grid-template-columns: 50% 50%;
+  }
 }
 
 /* =============
