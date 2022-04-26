@@ -366,6 +366,15 @@ ul li {
   padding: none;
 }
 
+body {
+  background-color: #000;
+}
+@media (min-width: 768px) {
+  body {
+    background-color: #fff;
+  }
+}
+
 /* =============
     Typography
 ============= */
@@ -404,6 +413,11 @@ header .content {
 /* =============
     Footer
 ============= */
+header .content {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
 test img {
   width: 100%;
 }
@@ -445,11 +459,18 @@ test img {
 /* =============
     Base
 ============= */
-.container {
+.container .content ul {
   display: grid;
-  grid-template-columns: 16px auto 16px;
-  grid-template-areas: ". content .";
+  gap: 20px;
 }
-.container .content {
-  grid-area: content;
+@media (min-width: 768px) {
+  .container .content ul {
+    grid-template-columns: 50% 50%;
+  }
+}
+@media (min-width: 992px) {
+  .container .content ul {
+    grid-template-columns: 50% 50%;
+    grid-template-areas: none "" "";
+  }
 }

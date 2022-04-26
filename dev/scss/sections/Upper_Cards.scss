@@ -1,0 +1,28 @@
+/* =============
+    Base
+============= */
+
+.container{
+   
+    .content{
+        ul{
+            display:grid;
+            gap:20px;
+
+            @include md{
+                grid-template-columns: 50% 50%;
+            }
+
+            @include lg{
+                grid-template-columns: 50% 50%;
+                grid-template-areas:none
+                ""
+                ""
+            }
+
+
+        
+        }
+
+    }
+}

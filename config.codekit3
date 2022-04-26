@@ -47,12 +47,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/ImagesResized\/Are We Alone.jpg" : {
+    "\/deploy\/img\/ImagesResized\/AreWeAlone.jpg" : {
       "ft" : 16384,
       "iS" : 34019,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/ImagesResized\/Are We Alone.jpg",
+      "oAP" : "\/deploy\/img\/ImagesResized\/AreWeAlone.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -60,12 +60,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/ImagesResized\/Art of Nothingness.jpg" : {
+    "\/deploy\/img\/ImagesResized\/ArtofNothingness.jpg" : {
       "ft" : 16384,
       "iS" : 85096,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/ImagesResized\/Art of Nothingness.jpg",
+      "oAP" : "\/deploy\/img\/ImagesResized\/ArtofNothingness.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -73,12 +73,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/ImagesResized\/Black Hole.jpg" : {
+    "\/deploy\/img\/ImagesResized\/BlackHole.jpg" : {
       "ft" : 16384,
       "iS" : 275200,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/ImagesResized\/Black Hole.jpg",
+      "oAP" : "\/deploy\/img\/ImagesResized\/BlackHole.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -86,12 +86,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/ImagesResized\/Depressed with Reality.jpg" : {
+    "\/deploy\/img\/ImagesResized\/DepressedwithReality.jpg" : {
       "ft" : 16384,
       "iS" : 13476,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/ImagesResized\/Depressed with Reality.jpg",
+      "oAP" : "\/deploy\/img\/ImagesResized\/DepressedwithReality.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -99,12 +99,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/ImagesResized\/E vs N.jpg" : {
+    "\/deploy\/img\/ImagesResized\/EvsN.jpg" : {
       "ft" : 16384,
       "iS" : 59536,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/ImagesResized\/E vs N.jpg",
+      "oAP" : "\/deploy\/img\/ImagesResized\/EvsN.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -125,12 +125,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/ImagesResized\/hero image.jpg" : {
+    "\/deploy\/img\/ImagesResized\/heroimage.jpg" : {
       "ft" : 16384,
       "iS" : 21063,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/ImagesResized\/hero image.jpg",
+      "oAP" : "\/deploy\/img\/ImagesResized\/heroimage.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -138,12 +138,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/ImagesResized\/Meaning of Life.jpg" : {
+    "\/deploy\/img\/ImagesResized\/MeaningofLife.jpg" : {
       "ft" : 16384,
       "iS" : 73858,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/ImagesResized\/Meaning of Life.jpg",
+      "oAP" : "\/deploy\/img\/ImagesResized\/MeaningofLife.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -151,12 +151,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/ImagesResized\/Myth of Sisyphus.jpg" : {
+    "\/deploy\/img\/ImagesResized\/MythofSisyphus.jpg" : {
       "ft" : 16384,
       "iS" : 54556,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/ImagesResized\/Myth of Sisyphus.jpg",
+      "oAP" : "\/deploy\/img\/ImagesResized\/MythofSisyphus.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -164,12 +164,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/ImagesResized\/Reasons to Go On.jpg" : {
+    "\/deploy\/img\/ImagesResized\/ReasonstoGoOn.jpg" : {
       "ft" : 16384,
       "iS" : 11850,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/ImagesResized\/Reasons to Go On.jpg",
+      "oAP" : "\/deploy\/img\/ImagesResized\/ReasonstoGoOn.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -489,7 +489,7 @@
       "oF" : 0,
       "pg" : 0
     },
-    "\/dev\/scss\/sections\/Upper Cards.scss" : {
+    "\/dev\/scss\/sections\/Upper_Cards.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -497,14 +497,14 @@
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
-      "oA" : 0,
-      "oAP" : "\/dev\/scss\/sections\/Upper Cards.css",
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/Upper_Cards.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/dev\/scss\/sections\/Whats New.scss" : {
+    "\/dev\/scss\/sections\/Whats_New.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -512,8 +512,8 @@
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
-      "oA" : 0,
-      "oAP" : "\/dev\/scss\/sections\/Whats New.css",
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/Whats_New.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
