@@ -12,12 +12,19 @@ img{
         grid-template-columns: 50% auto;
     }
 
-    .sub-content-left{
-        background-color: $red;
+    .Sub-Content-Left{
+        background-color:bisque;
 
         @include xl{
             grid-template-columns: auto auto 16px;
         }
+    }
+
+    .Sub-Content-Right{
+        background-color: bisque;
+    }
+    @include xl{
+        grid-template-columns: auto auto 16px;
     }
 
 }

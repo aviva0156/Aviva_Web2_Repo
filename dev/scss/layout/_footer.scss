@@ -2,10 +2,55 @@
     Footer
 ============= */
 
-header{
+footer{
+    background-color: $white;
+    color:whitesmoke;
+
     .content{
-        display:grid;
-        grid-template-columns: 50% 50%;
-        
+        display: grid;
+        grid-template-columns: 100%;
+
+        @include md{
+            display:grid;
+            grid-template-columns: 50% auto;
+            grid-template-areas:
+            "locations newsletter"
+            "locations social";
+        }
+
+        @include lg{
+            grid-template-columns: repeat(3,1fr);
+            grid-template-areas: 
+            "locations newsletter social";
+        }
     }
 }
+
+        .locations, .follow{
+            ul{
+                list-style: none;
+                padding:0;
+            }
+        }
+
+        .locations{
+            @include md{
+                grid-area: locations;
+            }
+        }
+
+        .newsletter{
+            @include md{
+                grid-area: newsletter;
+            }
+        }
+
+        .follow{
+            @include md{
+                grid-area: social;
+            }
+
+            ul{
+                display: inline-block;
+            }
+        }

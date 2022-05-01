@@ -7,11 +7,11 @@
    
     .Whats-New-Articles{
 
-            @include md{
-                display: grid;
-                grid-template-columns: 15px auto 15px;
-                grid-template-areas: ". articles .";
-            }
+        @include md{
+            display: grid;
+            grid-template-columns: 15px auto 15px;
+            grid-template-areas: ". articles .";
+        }
 
             @include xl{
                 grid-template-columns: auto 1140px auto;
@@ -45,7 +45,48 @@
 
                     img{
                         width:100%;
+                        display: block;
                     }
+
+                    .container{
+                        background-color:beige;
+
+                        @include xl{
+                            grid-template-columns: 15px auto 15px;
+                        }
+                    }
+
+                    &.article-1{
+                        @include md{
+                        grid-area: a1;
+                      }
+                    }
+
+                    &.article-2{
+                        @include md{
+                        grid-area: a2;
+                      }
+                    }
+
+                    &.article-3{
+                        @include md{
+                        grid-area: a3;
+                      }
+                    }
+
+                    &.article-4{
+                        @include md{
+                        grid-area: a4;
+                      }
+                    }
+
+                    &.article-5{
+                        @include md{
+                        grid-area: a5;
+                      }
+                    }
+
+
                 }
             }
  
