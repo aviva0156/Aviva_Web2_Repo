@@ -6,7 +6,7 @@
 .gallery{
 
     ul{
-        list-style: none;
+        list-style-type: none;
         padding:0;
 
         @include md{

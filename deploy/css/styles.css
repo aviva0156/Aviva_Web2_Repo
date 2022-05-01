@@ -535,7 +535,7 @@ footer .content {
     Base
 ============= */
 .gallery ul {
-  list-style: none;
+  list-style-type: none;
   padding: 0;
 }
 @media (min-width: 768px) {
