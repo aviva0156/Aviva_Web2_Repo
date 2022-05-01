@@ -372,6 +372,7 @@ template {
 body {
   font-family: "Open Sans";
   font-weight: 900;
+  color: black;
 }
 body p {
   font-weight: 100;
@@ -385,6 +386,19 @@ body h1 {
 /* =============
     Buttons
 ============= */
+a {
+  font-size: 30px;
+  color: red;
+  text-decoration: none;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  font-size: 30px;
+  color: red;
+}
+
 /* =============
     Forms
 ============= */
