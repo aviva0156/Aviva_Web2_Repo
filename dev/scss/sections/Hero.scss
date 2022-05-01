@@ -1,30 +1,10 @@
 
-
-
-.hero{
-
-    .hero-content{
-        ul{
-            display:grid;
-            gap:20px;
-
-            @include md{
-                grid-template-columns: 50% 50%;
-              }
-
-        
-
-              
-            }
-        }
-}
-
 img{
     width: 100%;
     display: block;
 }
 
-.hero-content{
+.Hero-Content{
     display: grid;
     grid-template-columns: 100%;
 
@@ -32,5 +12,12 @@ img{
         grid-template-columns: 50% auto;
     }
 
-    
+    .sub-content-left{
+        background-color: $red;
+
+        @include xl{
+            grid-template-columns: auto auto 16px;
+        }
+    }
+
 }
