@@ -20,5 +20,13 @@
             "h2 image"
             "button image"
         }
+
+        .sub-content-right{
+            display: grid;
+            grid-template-columns: 50% 50%;
+            grid-template-areas:
+            "h2 image"
+            "button image"
+        }
     }
 }

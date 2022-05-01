@@ -488,7 +488,7 @@ footer .content {
   display: inline-block;
 }
 
-img {
+.hero img {
   width: 100%;
   display: block;
 }
@@ -556,6 +556,26 @@ img {
 }
 .gallery ul li img {
   width: 100%;
+  display: block;
+}
+@media (min-width: 1200px) {
+  .gallery ul li.img-1 {
+    grid-area: g1;
+  }
+}
+@media (min-width: 1200px) {
+  .gallery ul li.img-2 {
+    grid-area: g2;
+  }
+}
+.gallery ul li.img-3 {
+  display: none;
+}
+@media (min-width: 1200px) {
+  .gallery ul li.img-3 {
+    display: block;
+    grid-area: g3;
+  }
 }
 
 /* =============
@@ -644,6 +664,11 @@ img {
   }
 }
 .divider .content .sub-content-left {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-areas: "h2 image" "button image";
+}
+.divider .content .sub-content-right {
   display: grid;
   grid-template-columns: 50% 50%;
   grid-template-areas: "h2 image" "button image";

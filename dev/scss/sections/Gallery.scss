@@ -23,11 +23,34 @@
             "g1 g2"
             "g1 g3";
         }
-
+        
         li{
             img{
                 width: 100%;
+                display: block;
             }
+
+            &.img-1{
+                @include xl{
+                    grid-area: g1;
+                }
+            }
+
+            &.img-2{
+                @include xl{
+                    grid-area: g2;
+                }
+            }
+
+            &.img-3{
+                display: none;
+
+                @include xl{
+                    display: block;
+                    grid-area: g3;
+                }
+            }
+
         }
     }
 }
