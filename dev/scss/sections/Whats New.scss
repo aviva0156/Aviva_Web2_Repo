@@ -3,20 +3,25 @@
 ============= */
 
 
-.container{
+.Whats-New{
    
-    .content{
-        ul{
-            display:grid;
-            gap:20px;
+    .Whats-New-Articles{
 
             @include md{
-                grid-template-columns: 25% 25% 25% 25%;
+                display: grid;
+                grid-template-columns: 15px auto 15px;
+                grid-template-areas: ". articles .";
             }
 
-            @include lg{
-                grid-template-columns: repeat(12,1fr);
-                grid-template-areas:none
+            @include xl{
+                grid-template-columns: auto 1140px auto;
+                
+            }
+
+            .article-grid{
+                display: grid;
+                grid-template-columns: 100%;
+                gap: 15px;
             }
  
 
@@ -25,4 +30,3 @@
         }
 
     }
-}

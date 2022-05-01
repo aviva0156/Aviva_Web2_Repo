@@ -449,20 +449,22 @@ img {
 /* =============
     Base
 ============= */
-.container .content ul {
-  display: grid;
-  gap: 20px;
-}
 @media (min-width: 768px) {
-  .container .content ul {
-    grid-template-columns: 25% 25% 25% 25%;
+  .Whats-New .Whats-New-Articles {
+    display: grid;
+    grid-template-columns: 15px auto 15px;
+    grid-template-areas: ". articles .";
   }
 }
-@media (min-width: 992px) {
-  .container .content ul {
-    grid-template-columns: repeat(12, 1fr);
-    grid-template-areas: none "Alone Content Alone Content Myth Content Myth Content EvN Content EvN Content" "Art Content Art Content Meaning Content Meaning Content";
+@media (min-width: 1200px) {
+  .Whats-New .Whats-New-Articles {
+    grid-template-columns: auto 1140px auto;
   }
+}
+.Whats-New .Whats-New-Articles .article-grid {
+  display: grid;
+  grid-template-columns: 100%;
+  gap: 15px;
 }
 
 /* =============
