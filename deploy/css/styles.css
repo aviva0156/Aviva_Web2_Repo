@@ -564,13 +564,15 @@ footer .content {
 /* =============
     Base
 ============= */
-.Hero-Content .Hero-Content-Left-Container .Content {
-  color: white;
+.Hero-Container {
+  background-color: orange;
+}
+.Hero-Container .Content .Hero-Content-Left-Container {
   display: grid;
   grid-template-columns: 50% 50%;
   grid-template-areas: ". content .";
 }
-.Hero-Content .Hero-Content-Left-Container .Content .Content {
+.Hero-Container .Content .Hero-Content-Left-Container {
   grid-area: content;
   color: white;
 }
