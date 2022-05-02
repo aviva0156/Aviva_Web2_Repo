@@ -756,23 +756,23 @@ footer .content {
 /* =============
     Base
 ============= */
-.Divider-Container .Content {
+.Divider-Container .Divider-Content {
   display: grid;
-  grid-template-columns: 100%;
+  grid-template-columns: 50% 50%;
   gap: 15px;
   background: #E0DFD5;
 }
 @media (min-width: 768px) {
-  .Divider-Container .Content {
+  .Divider-Container .Divider-Content {
     grid-template-columns: 50% auto;
   }
 }
-.Divider-Container .Content .sub-content-left {
+.Divider-Container .Divider-Content .Sub-Content-Left {
   display: grid;
   grid-template-columns: 50% 50%;
   grid-template-areas: "h2 image" "button image";
 }
-.Divider-Container .Content .sub-content-right {
+.Divider-Container .Divider-Content .Sub-Content-Right {
   display: grid;
   grid-template-columns: 50% 50%;
   grid-template-areas: "h2 image" "button image";
