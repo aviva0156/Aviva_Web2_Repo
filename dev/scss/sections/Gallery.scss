@@ -45,21 +45,26 @@
                         width: 100%;
                         display: block;
                     }
-
-                    &.i1{
                         @include xl{
                             grid-area: g1;
                         }
-                    }
+                    
 
                     &.i2{
+                        @include sm{
+                            display:none;
+                        }
+                        @include md{
+                            display:none;
+                        }
                         @include xl{
                             grid-area: g2;
                         }
                     }
 
                     &.i3{
-                        display: none;
+                    
+                        display: block;
 
                         @include xl{
                             display: block;

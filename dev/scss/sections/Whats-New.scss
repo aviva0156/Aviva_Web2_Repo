@@ -40,7 +40,7 @@
                     
                 }
 
-                article{
+                .article-grid{
 
                     img{
                         width:100%;
@@ -59,12 +59,24 @@
                         @include md{
                         grid-area: a1;
                       }
+                         @include lg{
+                        grid-area: a1;
+                      }
+                        @include xl{
+                        grid-area: a1;
+                      }
                     }
 
                     &.article-2{
                         @include md{
                         grid-area: a2;
                       }
+                        @include lg{
+                         grid-area: a2;
+                        }
+                         @include xl{
+                        grid-area: a2;
+                        }
                     }
 
                     &.article-3{

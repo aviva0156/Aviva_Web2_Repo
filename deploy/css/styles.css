@@ -613,8 +613,18 @@ footer .content {
   display: block;
 }
 @media (min-width: 1200px) {
-  .Gallery .Container .Gallery-Content ul li.i1 {
+  .Gallery .Container .Gallery-Content ul li {
     grid-area: g1;
+  }
+}
+@media (min-width: 576px) {
+  .Gallery .Container .Gallery-Content ul li.i2 {
+    display: none;
+  }
+}
+@media (min-width: 768px) {
+  .Gallery .Container .Gallery-Content ul li.i2 {
+    display: none;
   }
 }
 @media (min-width: 1200px) {
@@ -623,7 +633,7 @@ footer .content {
   }
 }
 .Gallery .Container .Gallery-Content ul li.i3 {
-  display: none;
+  display: block;
 }
 @media (min-width: 1200px) {
   .Gallery .Container .Gallery-Content ul li.i3 {
@@ -667,40 +677,60 @@ footer .content {
     grid-template-columns: repeat(4, 1fr);
   }
 }
-.Whats-New-Articles .article-grid article img {
+.Whats-New-Articles .article-grid .article-grid img {
   width: 100%;
   display: block;
 }
-.Whats-New-Articles .article-grid article .container {
+.Whats-New-Articles .article-grid .article-grid .container {
   background-color: beige;
 }
 @media (min-width: 1200px) {
-  .Whats-New-Articles .article-grid article .container {
+  .Whats-New-Articles .article-grid .article-grid .container {
     grid-template-columns: 15px auto 15px;
   }
 }
 @media (min-width: 768px) {
-  .Whats-New-Articles .article-grid article.article-1 {
+  .Whats-New-Articles .article-grid .article-grid.article-1 {
+    grid-area: a1;
+  }
+}
+@media (min-width: 992px) {
+  .Whats-New-Articles .article-grid .article-grid.article-1 {
+    grid-area: a1;
+  }
+}
+@media (min-width: 1200px) {
+  .Whats-New-Articles .article-grid .article-grid.article-1 {
     grid-area: a1;
   }
 }
 @media (min-width: 768px) {
-  .Whats-New-Articles .article-grid article.article-2 {
+  .Whats-New-Articles .article-grid .article-grid.article-2 {
+    grid-area: a2;
+  }
+}
+@media (min-width: 992px) {
+  .Whats-New-Articles .article-grid .article-grid.article-2 {
+    grid-area: a2;
+  }
+}
+@media (min-width: 1200px) {
+  .Whats-New-Articles .article-grid .article-grid.article-2 {
     grid-area: a2;
   }
 }
 @media (min-width: 768px) {
-  .Whats-New-Articles .article-grid article.article-3 {
+  .Whats-New-Articles .article-grid .article-grid.article-3 {
     grid-area: a3;
   }
 }
 @media (min-width: 768px) {
-  .Whats-New-Articles .article-grid article.article-4 {
+  .Whats-New-Articles .article-grid .article-grid.article-4 {
     grid-area: a4;
   }
 }
 @media (min-width: 768px) {
-  .Whats-New-Articles .article-grid article.article-5 {
+  .Whats-New-Articles .article-grid .article-grid.article-5 {
     grid-area: a5;
   }
 }
