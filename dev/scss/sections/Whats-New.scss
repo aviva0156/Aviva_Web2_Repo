@@ -19,7 +19,7 @@
 
                 @include md{
                     display: grid;
-                    grid-template-columns: auto auto auto auto;
+                    grid-template-columns: auto auto auto auto auto auto auto auto;
                     grid-area: ". articles .";
 
                     grid-template-areas:
