@@ -517,7 +517,7 @@
       "pg" : 0,
       "sct" : 0
     },
-    "\/dev\/scss\/sections\/Whats New.scss" : {
+    "\/dev\/scss\/sections\/Whats-New.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -525,8 +525,8 @@
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
-      "oA" : 0,
-      "oAP" : "\/dev\/scss\/sections\/Whats New.css",
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/Whats-New.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,

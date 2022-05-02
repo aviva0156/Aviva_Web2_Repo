@@ -3,55 +3,74 @@
 ============= */
 
 
-.gallery{
+.Gallery{
 
-    ul{
-        list-style-type: none;
-        padding:0;
+    .Container{
 
-        @include md{
-            display: grid;
-            grid-template-columns: 50% auto;
-        }
+        .Gallery-Content{
 
-        @include lg{
-            grid-template-columns: 60% auto;
-        }
+   
+            ul{
+                list-style-type: none;
+                padding:0;
 
-        @include xl{
-            grid-template-areas:
-            "g1 g2"
-            "g1 g3";
-        }
-        
-        li{
-            img{
-                width: 100%;
-                display: block;
-            }
-
-            &.img-1{
-                @include xl{
-                    grid-area: g1;
-                }
-            }
-
-            &.img-2{
-                @include xl{
-                    grid-area: g2;
-                }
-            }
-
-            &.img-3{
-                display: none;
-
-                @include xl{
+                @include sm{
                     display: block;
-                    grid-area: g3;
+                    grid: 100%;
+                }
+
+                @include md{
+                    display: grid;
+                    grid-template-columns: 50% 50%;
+                }
+
+                @include lg{
+                    display: grid;
+                    grid-template-columns: auto auto auto auto auto auto;
+                    grid-template-areas:
+                    "g1 g1 g1 g1 g2 g2"
+                    "g1 g1 g1 g1 g3 g3";
+                }
+
+                @include xl{
+                    display: grid;
+                    grid-template-columns: auto auto auto auto auto auto;
+                    grid-template-areas:
+                    "g1 g1 g1 g1 g2 g2"
+                    "g1 g1 g1 g1 g3 g3";
+                }
+                
+                li{
+                    &.i1{
+                        width: 100%;
+                        display: block;
+                    }
+
+                    &.i1{
+                        @include xl{
+                            grid-area: g1;
+                        }
+                    }
+
+                    &.i2{
+                        @include xl{
+                            grid-area: g2;
+                        }
+                    }
+
+                    &.i3{
+                        display: none;
+
+                        @include xl{
+                            display: block;
+                            grid-area: g3;
+                        }
+                    }
+
                 }
             }
-
         }
     }
 }
+
 

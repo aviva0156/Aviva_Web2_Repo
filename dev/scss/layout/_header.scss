@@ -4,21 +4,16 @@
 
 .header{
     .Logo-Container{
+        background: #2A3036;
 
         .Logo-Content{
-        display:grid;
-        grid-template-columns: 50% 50%;
-        img{
-            width:auto
-        }
-        }
-        
-        ul{
-            li{
-                list-style: none;
-                text-decoration: dashed;
-                font-family: 'Times New Roman', Times, serif;
+            background: #2A3036;
+            display:grid;
+            grid-template-columns: auto auto auto auto;
+            img{
+                width:auto
             }
         }
+        
     }
 }
