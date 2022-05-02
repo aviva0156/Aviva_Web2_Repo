@@ -2,10 +2,16 @@
     Header
 ============= */
 
-header{
-    .content{
+.header{
+    .Logo-Container{
+
+        .Logo-Content{
         display:grid;
         grid-template-columns: 50% 50%;
+        img{
+            width:auto
+        }
+        }
         
         ul{
             li{

@@ -15,8 +15,12 @@
         grid-template-columns: 50% auto;
     }
 
+    .Content{
+        background: #B81919;
+    }
+
     .Sub-Content-Left{
-        background-color:bisque;
+        background: #B81919;
 
         @include xl{
             grid-template-columns: auto auto 16px;
@@ -24,7 +28,7 @@
     }
 
     .Sub-Content-Right{
-        background-color: bisque;
+        background: #B81919;
     }
     @include xl{
         grid-template-columns: auto auto 16px;

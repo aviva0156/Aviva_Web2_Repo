@@ -3,12 +3,12 @@
 ============= */
 
 footer{
-    background-color: $white;
+    background: #2A3036;
     color:black;
 
     .content{
         display: grid;
-        grid-template-columns: 100%;
+        grid-template-columns: 33% 33% 33%;
 
         @include md{
             display:grid;

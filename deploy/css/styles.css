@@ -460,11 +460,14 @@ textarea {
 /* =============
     Header
 ============= */
-header .content {
+.header .Logo-Container .Logo-Content {
   display: grid;
   grid-template-columns: 50% 50%;
 }
-header .content ul li {
+.header .Logo-Container .Logo-Content img {
+  width: auto;
+}
+.header .Logo-Container ul li {
   list-style: none;
   text-decoration: dashed;
   font-family: "Times New Roman", Times, serif;
@@ -474,12 +477,12 @@ header .content ul li {
     Footer
 ============= */
 footer {
-  background-color: #fff;
+  background: #2A3036;
   color: black;
 }
 footer .content {
   display: grid;
-  grid-template-columns: 100%;
+  grid-template-columns: 33% 33% 33%;
 }
 @media (min-width: 768px) {
   footer .content {
@@ -539,8 +542,11 @@ footer .content {
     grid-template-columns: 50% auto;
   }
 }
+.Hero-Content .Content {
+  background: #B81919;
+}
 .Hero-Content .Sub-Content-Left {
-  background-color: bisque;
+  background: #B81919;
 }
 @media (min-width: 1200px) {
   .Hero-Content .Sub-Content-Left {
@@ -548,7 +554,7 @@ footer .content {
   }
 }
 .Hero-Content .Sub-Content-Right {
-  background-color: bisque;
+  background: #B81919;
 }
 @media (min-width: 1200px) {
   .Hero-Content {
@@ -559,13 +565,15 @@ footer .content {
 /* =============
     Base
 ============= */
-.container {
+.Hero-Content .Hero-Content-Left-Container .Content {
+  color: white;
   display: grid;
-  grid-template-columns: 16px auto 16px;
+  grid-template-columns: 50% 50%;
   grid-template-areas: ". content .";
 }
-.container .content {
+.Hero-Content .Hero-Content-Left-Container .Content .Content {
   grid-area: content;
+  color: white;
 }
 
 /* =============
@@ -690,23 +698,23 @@ footer .content {
 /* =============
     Base
 ============= */
-.divider .content {
+.Divider-Container .Content {
   display: grid;
   grid-template-columns: 100%;
   gap: 15px;
   background: #E0DFD5;
 }
 @media (min-width: 768px) {
-  .divider .content {
+  .Divider-Container .Content {
     grid-template-columns: 50% auto;
   }
 }
-.divider .content .sub-content-left {
+.Divider-Container .Content .sub-content-left {
   display: grid;
   grid-template-columns: 50% 50%;
   grid-template-areas: "h2 image" "button image";
 }
-.divider .content .sub-content-right {
+.Divider-Container .Content .sub-content-right {
   display: grid;
   grid-template-columns: 50% 50%;
   grid-template-areas: "h2 image" "button image";
