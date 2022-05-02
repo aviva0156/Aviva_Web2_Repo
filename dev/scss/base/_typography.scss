@@ -13,7 +13,47 @@ body{
     }
 
     h1{
-        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-        font-size:40px;
+        position: absolute;
+        width: 370px;
+        height: 30px;
+        left: 242px;
+        top: 1221px;
+
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 31px;
+        line-height: 30px;
+        color: #000000;
+    }
+
+    h2{
+        position: absolute;
+        height: 20px;
+        left: 31.9%;
+        right: 18.59%;
+        top: calc(50% - 20px/2 - 10px);
+
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 20px;
+        color: #FFFFFF;
+    }
+
+    h3{
+        position: absolute;
+        left: 4.69%;
+        right: 5%;
+        top: 44.94%;
+        bottom: 35.06%;
+
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 27px;
+        line-height: 30px;
+        color: #000000;
     }
 }
