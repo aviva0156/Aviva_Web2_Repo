@@ -479,19 +479,19 @@ footer {
   background: #2A3036;
   color: black;
 }
-footer .content {
+footer .Content {
   display: grid;
   grid-template-columns: 33% 33% 33%;
 }
 @media (min-width: 768px) {
-  footer .content {
+  footer .Content {
     display: grid;
     grid-template-columns: 50% auto;
     grid-template-areas: "locations newsletter" "locations social";
   }
 }
 @media (min-width: 992px) {
-  footer .content {
+  footer .Content {
     grid-template-columns: repeat(3, 1fr);
     grid-template-areas: "locations newsletter social";
   }
