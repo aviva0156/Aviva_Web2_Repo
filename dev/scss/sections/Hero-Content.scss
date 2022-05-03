@@ -3,8 +3,10 @@
 ============= */
 
 .Hero-Container{
-    background: #B81919;
+    
     .Content{
+        background: #B81919;
+
         .Hero-Content-Left-Container{
          display:grid;
          grid-template-columns: 50% 50%;
@@ -14,6 +16,9 @@
          .Hero-Content-Left-Container{
              grid-area:content;
             color:white;
+            }
+            .Hero-Content-Right-Container{
+                color: white;
             }
      }
     
