@@ -6,15 +6,17 @@
     
     .Content{
         background: #B81919;
+        display:grid;
+        grid-template-columns: 50% 50%;
 
         .Hero-Content-Left-Container{
-         display:grid;
-         grid-template-columns: 50% 50%;
-         grid-template-areas:
-         ". content .";
+            display:grid;
+            grid-template-columns: 50% 50%;
+            grid-template-areas:
+            ". content .";
         }
          .Hero-Content-Left-Container{
-             grid-area:content;
+             grid-area:auto;
             color:white;
             }
          .Hero-Content-Right-Container{

@@ -460,7 +460,7 @@ textarea {
 /* =============
     Header
 ============= */
-.header .Logo-Container {
+.header {
   background: #2A3036;
 }
 .header .Logo-Container .Logo-Content {
@@ -564,8 +564,10 @@ footer .Content {
 /* =============
     Base
 ============= */
-.Hero-Container {
-  background-color: orange;
+.Hero-Container .Content {
+  background: #B81919;
+  display: grid;
+  grid-template-columns: 50% 50%;
 }
 .Hero-Container .Content .Hero-Content-Left-Container {
   display: grid;
@@ -573,7 +575,10 @@ footer .Content {
   grid-template-areas: ". content .";
 }
 .Hero-Container .Content .Hero-Content-Left-Container {
-  grid-area: content;
+  grid-area: auto;
+  color: white;
+}
+.Hero-Container .Content .Hero-Content-Right-Container {
   color: white;
 }
 
@@ -663,6 +668,9 @@ footer .Content {
 /* =============
     Base
 ============= */
+.Whats-New-Articles {
+  background: #F8F9FA;
+}
 .Whats-New-Articles .article-grid {
   display: grid;
   grid-template-columns: 100%;
