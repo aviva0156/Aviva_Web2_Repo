@@ -4,108 +4,43 @@
 
    
     .Whats-New-Articles{
-        background: #F8F9FA;
-        display: grid;
-        grid-template-columns: 100%;
-
+        
         .article-grid{
-            display: grid;
-            grid-template-columns: 100%;
-            gap: 15px;
-            background: #F8F9FA;
+            column-gap: 20px;
+            row-gap: 20px;
 
-                @include sm{
-                    display: grid;
-                    grid-template-columns: 100%;
-                    grid-template-areas: ". articles .";
-                }
+            .article-1{
+                display: block;
+                background: #F8F9FA;
+             }
 
-                @include md{
-                    display: grid;
-                    grid-template-columns: auto auto auto auto auto auto auto auto;
-                    grid-area: ". articles .";
-
-                    grid-template-areas:
-                    "a1 a1 a2 a2"
-                    "a3 a3 a4 a4"
-                    ". a5 a5 .";
-                }
-
-                @include lg{
-                    grid-template-columns: repeat(3, 1fr);
-                    grid-template-areas:
-                    "a1 a1 a2 a2 a3 a3"
-                    ". a4 a4 a5 a5 ."
-                }
-
-                @include xl{
-                    grid-template-columns: repeat(4, 1fr);
-                    
-                }
-
-                .article-grid{
-
-                    img{
-                        width:100%;
-                        display: block;
-                    }
-
-                    .container{
-                        background-color:beige;
-
-                        @include xl{
-                            grid-template-columns: 15px auto 15px;
-                        }
-                    }
-
-                    &.article-1{
-                        @include md{
-                        grid-area: a1;
-                      }
-                         @include lg{
-                        grid-area: a1;
-                      }
-                        @include xl{
-                        grid-area: a1;
-                      }
-                    }
-
-                    &.article-2{
-                        @include md{
-                        grid-area: a2;
-                      }
-                        @include lg{
-                         grid-area: a2;
-                        }
-                         @include xl{
-                        grid-area: a2;
-                        }
-                    }
-
-                    &.article-3{
-                        @include md{
-                        grid-area: a3;
-                      }
-                    }
-
-                    &.article-4{
-                        @include md{
-                        grid-area: a4;
-                      }
-                    }
-
-                    &.article-5{
-                        @include md{
-                        grid-area: a5;
-                      }
-                    }
-
-
-                }
+            @include sm{
+                display: grid;
+                grid-template-columns: 100%;
             }
+            
+            @include md{
+                display: grid;
+                grid-template-columns: 50% 50%;
+                grid-template-rows: 33% 33% 33%;
+            }
+
+            @include lg{
+                display: grid;
+                grid-template-columns: 33% 33% 33%;
+                grid-template-rows: 50% 50%;
+             }
+
+             @include xl{
+                 display: grid;
+                 grid-template-columns: 33% 33% 33%;
+                 grid-template-rows: 50% 50%;
+            }
+
+         }
+     }
  
 
-
         
-        }
+    
 
