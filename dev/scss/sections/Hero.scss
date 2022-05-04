@@ -1,37 +1,8 @@
 
-.hero{
+.Hero{
 
     img{
     width: 100%;
     display: block;
     }
-}
-
-.Hero-Content{
-    display: grid;
-    grid-template-columns: 50% 50%;
-
-    @include md {
-        grid-template-columns: 50% auto;
-    }
-
-    .Content{
-        background: #B81919;
-    }
-
-    .Sub-Content-Left{
-        background: #B81919;
-
-        @include xl{
-            grid-template-columns: auto auto 16px;
-        }
-    }
-
-    .Sub-Content-Right{
-        background: #B81919;
-    }
-    @include xl{
-        grid-template-columns: auto auto 16px;
-    }
-
 }

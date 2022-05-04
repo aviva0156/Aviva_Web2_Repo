@@ -6,11 +6,14 @@
 .Search{
 
     .Content{
+        width:fit-content;
+        display: grid;
+    
 
-        input{
-            color: navy;
-            font-size:14px
+        .text{
+            width:fit-content;
+        }
+            
         }
     }
-}
 

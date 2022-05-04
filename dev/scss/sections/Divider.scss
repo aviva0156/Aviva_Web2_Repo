@@ -3,31 +3,25 @@
 ============= */
 
 .Divider-Container{
+    display: grid;
+    grid-template-columns: 100%;
+    gap:15px;
 
     .Divider-Content{
         display: grid;
         grid-template-columns: 50% 50%;
-        gap:15px;
+        column-gap: 30px;
         background: #E0DFD5;
 
-        @include md {
-            grid-template-columns: 50% auto;
-        }
-
+    
         .Sub-Content-Left{
             display: grid;
-            grid-template-columns: 50% 50%;
-            grid-template-areas:
-            "h2 image"
-            "button image"
+            grid-template-columns: 100%;
         }
 
         .Sub-Content-Right{
             display: grid;
-            grid-template-columns: 50% 50%;
-            grid-template-areas:
-            "h2 image"
-            "button image"
+            grid-template-columns: 100%;
         }
     }
 }

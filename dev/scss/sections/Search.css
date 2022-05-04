@@ -1,7 +1,10 @@
 /* =============
     Base
 ============= */
-.Search .Content input {
-  color: navy;
-  font-size: 14px;
+.Search .Content {
+  width: fit-content;
+  display: grid;
+}
+.Search .Content .text {
+  width: fit-content;
 }
