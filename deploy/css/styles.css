@@ -647,10 +647,18 @@ footer .Content {
 .Whats-New-Articles .article-grid {
   column-gap: 20px;
   row-gap: 20px;
-}
-.Whats-New-Articles .article-grid .article-1 {
-  display: block;
-  background: #F8F9FA;
+  /*  .A1{
+        display: block;
+        background: #F8F9FA;
+
+        .Container{
+            .Nothing-Content{
+                display: grid;
+                grid-template-rows: 33% 33% 33%;
+            }
+        }
+    }
+    */
 }
 @media (min-width: 576px) {
   .Whats-New-Articles .article-grid {
