@@ -591,7 +591,7 @@ footer .Content {
 }
 @media (min-width: 576px) {
   .Gallery .Container .Gallery-Content ul {
-    display: block;
+    display: grid;
     grid: 100%;
   }
 }
@@ -617,7 +617,7 @@ footer .Content {
 }
 .Gallery .Container .Gallery-Content ul li.i1 {
   width: 100%;
-  display: block;
+  display: grid;
 }
 @media (min-width: 1200px) {
   .Gallery .Container .Gallery-Content ul li {
@@ -634,8 +634,14 @@ footer .Content {
     display: none;
   }
 }
+@media (min-width: 992px) {
+  .Gallery .Container .Gallery-Content ul li.i2 {
+    display: block;
+  }
+}
 @media (min-width: 1200px) {
   .Gallery .Container .Gallery-Content ul li.i2 {
+    display: block;
     grid-area: g2;
   }
 }
@@ -670,6 +676,8 @@ footer .Content {
 ============= */
 .Whats-New-Articles {
   background: #F8F9FA;
+  display: grid;
+  grid-template-columns: 100%;
 }
 .Whats-New-Articles .article-grid {
   display: grid;

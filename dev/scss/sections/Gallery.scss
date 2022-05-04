@@ -15,7 +15,7 @@
                 padding:0;
 
                 @include sm{
-                    display: block;
+                    display: grid;
                     grid: 100%;
                 }
 
@@ -43,7 +43,7 @@
                 li{
                     &.i1{
                         width: 100%;
-                        display: block;
+                        display: grid;
                     }
                         @include xl{
                             grid-area: g1;
@@ -54,10 +54,17 @@
                         @include sm{
                             display:none;
                         }
+                        
                         @include md{
                             display:none;
                         }
+
+                        @include lg{
+                            display:block;
+                        }
+
                         @include xl{
+                            display:block;
                             grid-area: g2;
                         }
                     }

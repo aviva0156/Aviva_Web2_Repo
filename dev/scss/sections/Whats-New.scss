@@ -5,6 +5,8 @@
    
     .Whats-New-Articles{
         background: #F8F9FA;
+        display: grid;
+        grid-template-columns: 100%;
 
         .article-grid{
             display: grid;
