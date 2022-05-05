@@ -45,6 +45,10 @@
                         width: 100%;
                         display: grid;
                     }
+                        @include md{
+                            display: grid;
+                            grid-template-columns: 50% 50%;
+                        }
                         @include xl{
                             grid-area: g1;
                         }
@@ -79,7 +83,9 @@
                         }
 
                         @include md{
-                            display:block;
+                            display:grid;
+                            grid-template-columns: 100%;
+                            width: 100%;
                         }
 
                         @include lg{
