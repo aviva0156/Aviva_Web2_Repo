@@ -5,6 +5,6 @@
   width: fit-content;
   display: grid;
 }
-.Search .Content .text {
-  width: fit-content;
+.Search .Content .search {
+  width: 61px;
 }

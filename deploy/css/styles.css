@@ -434,6 +434,8 @@ button {
   border: none;
   font-size: 30px;
   color: black;
+  width: 110px;
+  height: 30px;
 }
 
 /* =============
@@ -461,6 +463,9 @@ textarea {
     Header
 ============= */
 .header {
+  background: #2A3036;
+}
+.header .Logo-Container {
   background: #2A3036;
 }
 .header .Logo-Container .Logo-Content {
@@ -545,6 +550,8 @@ footer .Content {
   grid-template-rows: 33% 33% 33%;
   grid-template-columns: 100%;
   color: white;
+  width: 512px;
+  height: 72px;
 }
 .Hero-Container .Content .Hero-Content-Right-Container {
   display: grid;
