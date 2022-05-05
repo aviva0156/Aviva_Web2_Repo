@@ -3,8 +3,8 @@
 ============= */
 
 body{
-    font-family: 'Open Sans';
-    font-weight: 900;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
     color:black;
 
     p{
@@ -13,7 +13,7 @@ body{
     }
 
     h1{
-        font-family: 'Open Sans';
+        font-family: "Open Sans", sans-serif;
         font-style: normal;
         font-weight: 400;
         font-size: 31px;
@@ -22,8 +22,8 @@ body{
     }
 
     h2{
-        font-family: 'Open Sans';
-        font-style: normal;
+        font-family: "Open Sans", sans-serif;
+        font-style: bold;
         font-weight: 700;
         font-size: 25px;
         line-height: 20px;
@@ -31,8 +31,8 @@ body{
     }
 
     h3{
-        font-family: 'Open Sans';
-        font-style: normal;
+        font-family: "Open Sans", sans-serif;
+        font-style: "semi bold";
         font-weight: 600;
         font-size: 27px;
         line-height: 30px;
@@ -40,8 +40,8 @@ body{
     }
 
     h4{
-        font-family: 'Open Sans';
-        font-style: normal;
+        font-family: "Open Sans", sans-serif;
+        font-style: "semi bold";
         font-weight: 600;
         font-size: 20px;
         line-height: 27px;
@@ -49,11 +49,28 @@ body{
     }
 
     h5{
-        font-family: 'Open Sans';
-        font-style: normal;
+        font-family: "Open Sans", sans-serif;
+        font-style: "semi bold";
         font-weight: 600;
         font-size: 16px;
         line-height: 22px;
         color: #E0DFD5;
+    }
+
+    h6{
+        font-family: "Open Sans", sans-serif;
+        font-style: Bold;
+        font-weight:700;
+        font-size: 18px;
+        line-height: 24px;
+        color:#FFFFFF
+    }
+
+    h7{
+        font-family: "Open Sans", sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 16px;
+        color: #C8C7BC;
     }
 }
