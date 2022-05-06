@@ -29,16 +29,16 @@
                     display: grid;
                     grid-template-columns: auto auto auto auto auto auto;
                     grid-template-areas:
-                    "g1 g1 g1 g1 g2 g2"
-                    "g1 g1 g1 g1 g3 g3";
+                    "g1 g2"
+                    "g1 g3";
                 }
 
                 @include xl{
                     display: grid;
                     grid-template-columns: auto auto auto auto auto auto;
                     grid-template-areas:
-                    "g1 g1 g1 g1 g2 g2"
-                    "g1 g1 g1 g1 g3 g3";
+                    "g1 g2"
+                    "g1 g3";
                 }
                 
                 li{
@@ -55,17 +55,7 @@
                     
 
                     &.i2{
-                        @include sm{
-                            display:none;
-                        }
-                        
-                        @include md{
-                            display:none;
-                        }
-
-                        @include lg{
-                            display:block;
-                        }
+                        display:none;
 
                         @include xl{
                             display:block;

@@ -377,6 +377,7 @@ body {
 body p {
   font-weight: 100;
   font-size: 24px;
+  margin: 0%;
 }
 body h1 {
   font-family: "Open Sans", sans-serif;
@@ -417,6 +418,7 @@ body h5 {
   font-size: 16px;
   line-height: 22px;
   color: #E0DFD5;
+  margin: 0%;
 }
 body h6 {
   font-family: "Open Sans", sans-serif;
@@ -582,14 +584,14 @@ footer .Content {
   .Gallery .Container .Gallery-Content ul {
     display: grid;
     grid-template-columns: auto auto auto auto auto auto;
-    grid-template-areas: "g1 g1 g1 g1 g2 g2" "g1 g1 g1 g1 g3 g3";
+    grid-template-areas: "g1 g2" "g1 g3";
   }
 }
 @media (min-width: 1200px) {
   .Gallery .Container .Gallery-Content ul {
     display: grid;
     grid-template-columns: auto auto auto auto auto auto;
-    grid-template-areas: "g1 g1 g1 g1 g2 g2" "g1 g1 g1 g1 g3 g3";
+    grid-template-areas: "g1 g2" "g1 g3";
   }
 }
 .Gallery .Container .Gallery-Content ul li.i1 {
@@ -606,20 +608,8 @@ footer .Content {
     grid-area: g1;
   }
 }
-@media (min-width: 576px) {
-  .Gallery .Container .Gallery-Content ul li.i2 {
-    display: none;
-  }
-}
-@media (min-width: 768px) {
-  .Gallery .Container .Gallery-Content ul li.i2 {
-    display: none;
-  }
-}
-@media (min-width: 992px) {
-  .Gallery .Container .Gallery-Content ul li.i2 {
-    display: block;
-  }
+.Gallery .Container .Gallery-Content ul li.i2 {
+  display: none;
 }
 @media (min-width: 1200px) {
   .Gallery .Container .Gallery-Content ul li.i2 {
@@ -712,7 +702,7 @@ footer .Content {
 }
 .Divider-Container .Divider-Content {
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 100%;
   column-gap: 30px;
   width: auto;
   height: 145px;
