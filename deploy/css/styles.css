@@ -480,10 +480,16 @@ textarea {
 /* =============
     Header
 ============= */
-header .Logo-Container {
+header {
+  text-align: center;
   background: #2A3036;
+}
+header .Logo-Container {
   display: grid;
   grid-template-columns: 100%;
+}
+header .Logo-Container .Logo-Content {
+  background: #2A3036;
 }
 header .Logo-Container .Logo-Content img {
   width: auto;
@@ -527,25 +533,8 @@ footer .Content {
 /* =============
     Base
 ============= */
-@media (min-width: 576px) {
-  .Hero-Container {
-    height: 158px;
-  }
-}
-@media (min-width: 768px) {
-  .Hero-Container {
-    height: 81px;
-  }
-}
-@media (min-width: 992px) {
-  .Hero-Container {
-    height: 72px;
-  }
-}
-@media (min-width: 1200px) {
-  .Hero-Container {
-    height: 72px;
-  }
+.Hero-Container {
+  height: 72px;
 }
 .Hero-Container .Content {
   background: #B81919;

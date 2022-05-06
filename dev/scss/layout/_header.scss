@@ -3,12 +3,15 @@
 ============= */
 
 header{
+    text-align: center;
+    background: #2A3036;
+    
     .Logo-Container{
-        background: #2A3036;
         display:grid;
         grid-template-columns: 100%;
 
         .Logo-Content{
+            background: #2A3036;
             img{
                 width:auto
             }

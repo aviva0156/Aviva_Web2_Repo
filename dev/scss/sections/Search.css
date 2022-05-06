@@ -1,6 +1,9 @@
 /* =============
     Base
 ============= */
+.Search {
+  text-align: center;
+}
 .Search .Content {
   background-color: black;
 }

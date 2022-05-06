@@ -3,19 +3,8 @@
 ============= */
 
 .Hero-Container{
+     height: 72px;
 
-   @include sm{
-       height: 158px;
-   }
-    @include md{
-        height: 81px;
-    }
-    @include lg{
-         height: 72px;
-    }
-    @include xl{
-        height: 72px;
-    }
     .Content{
         background: #B81919;
         display:grid;
