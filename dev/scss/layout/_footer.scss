@@ -27,35 +27,13 @@ footer{
 }
 
 
-.fa-brands {
-    width: auto;   
-}
+ .locations, .follow{
+     ul{
+        list-style: none;
+         padding:0;
+         }
+     }
 
-        .locations, .follow{
-            ul{
-                list-style: none;
-                padding:0;
-            }
-        }
 
-        .locations{
-            @include md{
-                grid-area: locations;
-            }
-        }
 
-        .newsletter{
-            @include md{
-                grid-area: newsletter;
-            }
-        }
-
-        .follow{
-            @include md{
-                grid-area: social;
-            }
-
-            ul{
-                display: inline-block;
-            }
-        }
+      

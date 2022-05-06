@@ -3,7 +3,19 @@
 ============= */
 
 .Hero-Container{
-    
+
+   @include sm{
+       height: 158px;
+   }
+    @include md{
+        height: 81px;
+    }
+    @include lg{
+         height: 72px;
+    }
+    @include xl{
+        height: 72px;
+    }
     .Content{
         background: #B81919;
         display:grid;
@@ -11,8 +23,8 @@
 
         .Hero-Content-Left-Container{
             display:grid;
-            grid-template-rows: 33% 33% 33%;
-            grid-template-columns: 100%;
+            grid-template-rows: 50% 50%;
+            grid-template-columns: 50% 50%;
             color:white;
             width: 512px;
             height: 72px;
@@ -20,8 +32,11 @@
 
          .Hero-Content-Right-Container{
              display: grid;
-             grid-template-rows: 50% 50%;
+             grid-template-rows: 33% 33% 33%;
+             grid-template-columns: 50% 50%;
              color: white;
+             width: 512px;
+             height: 72px;
          }
      }
     

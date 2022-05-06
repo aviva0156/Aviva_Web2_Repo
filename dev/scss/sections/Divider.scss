@@ -11,17 +11,48 @@
         display: grid;
         grid-template-columns: 50% 50%;
         column-gap: 30px;
-        background: #E0DFD5;
+        width: auto;
+        height: 145px;
+        background: white;
+        margin:auto;
+
+        @include sm{
+            display: grid;
+            grid-template-columns: 50% 50%;
+            grid-template-rows: 100%;
+        }
+
+        @include md{
+            display: grid;
+            grid-template-columns: 50% 50%;
+            grid-template-rows: 100%;
+        }
+
+        @include lg{
+            display: grid;
+            grid-template-rows: auto;
+        }
+
+        @include xl{
+            display: grid;
+            grid-template-rows: auto;
+        }
+    
 
     
         .Sub-Content-Left{
             display: grid;
-            grid-template-columns: 100%;
+            grid-template-columns: 50% 50%;
+            background: #E0DFD5;
+             .img{
+                float:right;
+             }
         }
 
         .Sub-Content-Right{
             display: grid;
-            grid-template-columns: 100%;
+            grid-template-columns: 50% 50%;
+            background: #E0DFD5;
         }
     }
 }

@@ -2,15 +2,13 @@
     Header
 ============= */
 
-.header{
-    background: #2A3036;
+header{
     .Logo-Container{
         background: #2A3036;
+        display:grid;
+        grid-template-columns: 100%;
 
         .Logo-Content{
-            background: #2A3036;
-            display:grid;
-            grid-template-columns: auto auto auto auto;
             img{
                 width:auto
             }

@@ -6,14 +6,16 @@
 .Search{
 
     .Content{
-        width:fit-content;
-        display: grid;
+       background-color: black;
+        
     
 
-        .search{
-            width:61px;
-        }
-            
+        input[type=text] {
+             background-color: white;
+             background-image: url(/deploy/img/SVGResized/Shape.svg);
+             background-position: 10px 10px;
+             background-repeat: no-repeat;
+             padding-left: 40px;
         }
     }
-
+}
