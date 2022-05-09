@@ -8,13 +8,18 @@
     gap:15px;
 
     .Divider-Content{
-        display: grid;
-        grid-template-columns: 100%;
         column-gap: 30px;
         width: auto;
         height: 145px;
         background: white;
         margin:auto;
+
+        div{
+            padding-top: 15px;
+            padding-right: 10px;
+            padding-bottom:40px;
+            padding-left: 30px;
+        }
 
         @include sm{
             display: grid;
@@ -37,6 +42,8 @@
             display: grid;
             grid-template-rows: auto;
         }
+
+
     
 
     
