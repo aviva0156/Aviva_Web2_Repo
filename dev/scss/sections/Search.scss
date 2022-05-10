@@ -1,22 +1,35 @@
 /* =============
-    Base
+    Search
 ============= */
 
 
 .Search{
     text-align: center;
+    margin: 15px 0 15px 0;
     
     .Content{
        background-color: black;
+       display: flex;
+
+       form{
+           display:flex;
+           padding:20px;
+           margin: auto;
+
+           input{
+               border: none;
+               background-color: red;
+               width:100%;
+               margin-right: 20px;
+               border-bottom: 1px solid black;
+               color: orange;
+
+
+           }
+       }
         
     
 
-        input[type=text] {
-             background-color: white;
-             background-image: url(/deploy/img/SVGResized/Shape.svg);
-             background-position: 10px 10px;
-             background-repeat: no-repeat;
-             padding-left: 40px;
-        }
+        
     }
 }
