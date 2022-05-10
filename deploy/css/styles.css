@@ -472,21 +472,6 @@ button {
 /* =============
     Forms
 ============= */
-[type=text], [type=password], [type=date], [type=datetime], [type=datetime-local], [type=month], [type=week], [type=email], [type=number], [type=search], [type=tel], [type=time], [type=url], [type=color], textarea {
-  box-shadow: none;
-}
-
-[type=text]:focus, [type=password]:focus, [type=date]:focus, [type=datetime]:focus, [type=datetime-local]:focus, [type=month]:focus, [type=week]:focus, [type=email]:focus, [type=number]:focus, [type=search]:focus, [type=tel]:focus, [type=time]:focus, [type=url]:focus, [type=color]:focus, textarea:focus {
-  box-shadow: none;
-}
-
-input[type=text],
-input[type=email],
-input[type=password],
-textarea {
-  -webkit-appearance: none;
-}
-
 /* =============
     Navigation
 ============= */
@@ -572,6 +557,12 @@ footer .Content {
   color: white;
   width: 512px;
   height: 72px;
+  margin-left: 18px;
+}
+@media (min-width: 1200px) {
+  .Hero-Container .Content .Hero-Content-Left-Container {
+    margin-left: 230px;
+  }
 }
 .Hero-Container .Content .Hero-Content-Right-Container {
   display: grid;
@@ -580,6 +571,12 @@ footer .Content {
   color: white;
   width: 512px;
   height: 72px;
+  margin-right: 161px;
+}
+@media (min-width: 1200px) {
+  .Hero-Container .Content .Hero-Content-Right-Container {
+    margin-right: 397px;
+  }
 }
 
 /* =============
